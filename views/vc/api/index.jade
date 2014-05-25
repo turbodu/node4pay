@@ -1,0 +1,57 @@
+extends ../../layout
+block content
+    h1= title
+    p Welcome to #{title}
+    div.div_form
+        p  #{title}
+        form(achtion="", method="post" action='/vc/api/#{title}')
+            - if(title=='bind'){
+
+                    div
+                        | 商户号
+                        input(type='text' name="merchId" value="123456789012345")
+                    div
+                        | 时间戳
+                        input(type='text' name="timeStamp" value="20140505181920")
+                    div
+                        | version
+                        input(type='text' name="version" value="v1.0")
+                    div
+                        | account
+                        input(type='text' name="account" value="12345678901")
+                    div
+                        | cardNo
+                        input(type='text' name="cardNo" value="1234567890123456789")
+                    div
+                        | bindCode
+                        input(type='text' name="bindCode" value="12345678901234567890123456789012"  style="width:500px")
+                    div
+                        | sign
+                        input(type='text' name="sign" value="sign256")
+            -}
+            - if(title=='unbind'){
+                    div
+                        | 商户号
+                        input(type='text' name="merchId" value="123456789012345")
+                    div
+                        | 时间戳
+                        input(type='text' name="timeStamp" value="20140505181920")
+                    div
+                        | version
+                        input(type='text' name="version" value="v1.0")
+                    div
+                        | account
+                        input(type='text' name="account" value="12345678901")
+                    div
+                        | cardNo
+                        input(type='text' name="cardNo" value="1234567890123456789")
+                    div
+                        | bindCode
+                        input(type='text' name="bindCode" value="12345678901234567890123456789012"  style="width:500px")
+                    div
+                        | sign
+                        input(type='text' name="sign" value="sign256")
+            -}
+                div
+                    input(type='submit')
+            div
