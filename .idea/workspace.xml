@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b2d839-a307-4acb-b3bd-47cb9875f92b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="4e149950-1950-4123-826d-4366490c2bf5" name="New changelist" comment="New changelist" />
@@ -334,7 +333,11 @@
       <created>1401114290358</created>
       <updated>1401114290358</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create">
+      <created>1401114444957</created>
+      <updated>1401114444957</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
