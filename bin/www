@@ -7,3 +7,13 @@ app.set('port', process.env.PORT || 8080);
 var server = app.listen(app.get('port'), function() {
     debug('Express server listening on port ' + server.address().port);
 });
+
+
+var crypto=require("crypto");
+var md5 = crypto.createHash('md5');
+md5.update('12345678901234567890123456789012');
+console.log(md5.digest("hex"));
+md5 = crypto.createHash('md5');
+md5.update('12345678901234567890123456789012');
+console.log(md5.digest("hex"));
+
