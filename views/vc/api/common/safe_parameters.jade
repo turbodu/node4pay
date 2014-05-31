@@ -1,0 +1,12 @@
+//
+   Created by Administrator on 2014/5/29.
+
+block safe_parameters
+    fieldset#saft
+        legend 安全参数
+        div
+            input(type='text' name="sign" value="" style="width:500px")
+            | 签名	sign	String(100)		M	见：签名算法说明。
+        div
+            input(type='text' name="etc" value="12345678901234567890")
+            | 时间戳	etc	Number(10)		M	返回自 1970 年 1 月 1 日 00:00:00 GMT 以来此 Date 对象表示的毫秒数。与时区配合使用，当超时后(30分钟)，请求报文失效。

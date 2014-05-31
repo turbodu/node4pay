@@ -8,3 +8,8 @@ Error: listen EACCES
 这个错误 绑定 ip能解决 
 http.createServer(app).listen(port,ipaddr);
 
+
+引用子模板
+------------------------------------------
+include common/protocol_parameters
+block protocol_parameters
